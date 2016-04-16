@@ -15,11 +15,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject : AnyObject]?) -> Bool {
-        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
 
-        self.window!.rootViewController = RootViewController()
-        self.window!.backgroundColor = UIColor.whiteColor()
-        self.window!.makeKeyAndVisible()
+        window = UIWindow(frame:UIScreen.mainScreen().bounds)
+        let home = UIStoryboard(name: "Storyboard", bundle: nil).instantiateViewControllerWithIdentifier("rootView")
+        self.window!.rootViewController = home
+        
+        self.window?.makeKeyAndVisible()
         return true
     }
 

@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08DEFB411CC0A92200821007 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08DEFB401CC0A92200821007 /* Launch Screen.storyboard */; };
+		08DEFB431CC0C1D500821007 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08DEFB421CC0C1D500821007 /* Storyboard.storyboard */; };
+		08DEFB461CC0D66800821007 /* Caption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DEFB451CC0D66800821007 /* Caption.swift */; };
+		08DEFB481CC0DB7B00821007 /* Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DEFB471CC0DB7B00821007 /* Gif.swift */; };
+		08DEFB491CC0DE2900821007 /* Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DEFB471CC0DB7B00821007 /* Gif.swift */; };
+		08DEFB4A1CC0DE2C00821007 /* Caption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DEFB451CC0D66800821007 /* Caption.swift */; };
+		08DEFB4C1CC110AA00821007 /* CaptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DEFB4B1CC110AA00821007 /* CaptionVC.swift */; };
+		08DEFB4E1CC1285C00821007 /* PreviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DEFB4D1CC1285C00821007 /* PreviewVC.swift */; };
 		1419B388194EFBFD005DF6D0 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1419B37D194EFBFD005DF6D0 /* UIImage+Gif.swift */; };
 		1419B389194EFBFD005DF6D0 /* adventure-time.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1419B37F194EFBFD005DF6D0 /* adventure-time.gif */; };
 		1419B38A194EFBFD005DF6D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1419B380194EFBFD005DF6D0 /* AppDelegate.swift */; };
@@ -29,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08DEFB401CC0A92200821007 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		08DEFB421CC0C1D500821007 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
+		08DEFB451CC0D66800821007 /* Caption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Caption.swift; path = SwiftGifClasse/Caption.swift; sourceTree = "<group>"; };
+		08DEFB471CC0DB7B00821007 /* Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gif.swift; sourceTree = "<group>"; };
+		08DEFB4B1CC110AA00821007 /* CaptionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptionVC.swift; sourceTree = "<group>"; };
+		08DEFB4D1CC1285C00821007 /* PreviewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewVC.swift; sourceTree = "<group>"; };
 		1419B378194EFBE7005DF6D0 /* GifTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifTests.swift; sourceTree = "<group>"; };
 		1419B379194EFBE7005DF6D0 /* test.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = test.gif; sourceTree = "<group>"; };
 		1419B37D194EFBFD005DF6D0 /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
@@ -61,6 +75,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08DEFB441CC0D61A00821007 /* SwiftGifClasse */ = {
+			isa = PBXGroup;
+			children = (
+				08DEFB451CC0D66800821007 /* Caption.swift */,
+				08DEFB471CC0DB7B00821007 /* Gif.swift */,
+			);
+			name = SwiftGifClasse;
+			sourceTree = "<group>";
+		};
 		1419B377194EFBE7005DF6D0 /* SwiftGifTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,10 +107,14 @@
 			children = (
 				1419B380194EFBFD005DF6D0 /* AppDelegate.swift */,
 				1419B384194EFBFD005DF6D0 /* RootViewController.swift */,
+				08DEFB4B1CC110AA00821007 /* CaptionVC.swift */,
+				08DEFB4D1CC1285C00821007 /* PreviewVC.swift */,
 				1419B381194EFBFD005DF6D0 /* Images.xcassets */,
 				1419B37F194EFBFD005DF6D0 /* adventure-time.gif */,
 				1419B383194EFBFD005DF6D0 /* jeremy.gif */,
 				1419B382194EFBFD005DF6D0 /* Info.plist */,
+				08DEFB421CC0C1D500821007 /* Storyboard.storyboard */,
+				08DEFB401CC0A92200821007 /* Launch Screen.storyboard */,
 			);
 			path = SwiftGifDemo;
 			sourceTree = "<group>";
@@ -95,6 +122,7 @@
 		14A7642F194EFBB800A74B1F = {
 			isa = PBXGroup;
 			children = (
+				08DEFB441CC0D61A00821007 /* SwiftGifClasse */,
 				1419B37E194EFBFD005DF6D0 /* SwiftGifDemo */,
 				1419B37C194EFBFD005DF6D0 /* SwiftGifCommon */,
 				1419B377194EFBE7005DF6D0 /* SwiftGifTests */,
@@ -194,6 +222,8 @@
 				1419B38D194EFBFD005DF6D0 /* jeremy.gif in Resources */,
 				1419B38B194EFBFD005DF6D0 /* Images.xcassets in Resources */,
 				1419B389194EFBFD005DF6D0 /* adventure-time.gif in Resources */,
+				08DEFB411CC0A92200821007 /* Launch Screen.storyboard in Resources */,
+				08DEFB431CC0C1D500821007 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +242,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08DEFB481CC0DB7B00821007 /* Gif.swift in Sources */,
+				08DEFB4E1CC1285C00821007 /* PreviewVC.swift in Sources */,
+				08DEFB4C1CC110AA00821007 /* CaptionVC.swift in Sources */,
 				1419B38A194EFBFD005DF6D0 /* AppDelegate.swift in Sources */,
 				1419B388194EFBFD005DF6D0 /* UIImage+Gif.swift in Sources */,
+				08DEFB461CC0D66800821007 /* Caption.swift in Sources */,
 				1419B38E194EFBFD005DF6D0 /* RootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,6 +258,8 @@
 			files = (
 				1482D73B194EFCF10038192B /* UIImage+Gif.swift in Sources */,
 				1419B38F194EFC11005DF6D0 /* GifTests.swift in Sources */,
+				08DEFB4A1CC0DE2C00821007 /* Caption.swift in Sources */,
+				08DEFB491CC0DE2900821007 /* Gif.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
